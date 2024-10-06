@@ -309,13 +309,13 @@ const BLOG = {
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
    MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
-    {
-      name: '星が瞬くこんな夜に',
-      artist: '悠久魔女之诗',
-      url: 'https://music.163.com/song/url?id=2017459413.mp3',
-      cover:
-        'https://p1.music.126.net/nY91mI4e9cAJA1y6l7HqYg==/109951168262177179.jpg'
-    },
+   // {
+    //  name: '星が瞬くこんな夜に',
+     // artist: '悠久魔女之诗',
+     // url: 'https://music.163.com/song/url?id=2017459413.mp3',
+    //  cover:
+    //    'https://p1.music.126.net/nY91mI4e9cAJA1y6l7HqYg==/109951168262177179.jpg'
+    //},
      {
       name: 'ひらひら ひらら',
       artist: 'ClariS',
