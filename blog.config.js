@@ -319,7 +319,7 @@ const BLOG = {
      {
       name: 'ひらひら ひらら',
       artist: 'ClariS',
-      url: 'https://music.163.com/song/url?id=404543135',
+      url: 'https://music.163.com/song/url?id=404543135.mp3',
       cover:
         'hhttps://p1.music.126.net/IvVmS8hei058-_FxOQ4q1w==/109951167953893147.jpg'
     },
