@@ -311,10 +311,10 @@ const BLOG = {
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
       name: '星が瞬くこんな夜に',
-      artist: 'supercell',
-      url: 'https://open.spotify.com/track/6sDUM0cfmU5WX66eJG41dI',
+      artist: '悠久魔女之诗',
+      url: 'https://music.163.com/song?id=2017459413.mp3',
       cover:
-        'https://p1.music.126.net/deSbNUsm_WVlCotnUeN2hw==/109951166200380956.jpg'
+        'https://p1.music.126.net/nY91mI4e9cAJA1y6l7HqYg==/109951168262177179.jpg'
     },
     {
       name: '王都グランセル',
