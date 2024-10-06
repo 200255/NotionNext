@@ -316,6 +316,13 @@ const BLOG = {
       cover:
         'https://p1.music.126.net/nY91mI4e9cAJA1y6l7HqYg==/109951168262177179.jpg'
     },
+     {
+      name: 'ひらひら ひらら',
+      artist: 'ClariS',
+      url: 'https://music.163.com/song/url?id=404543135',
+      cover:
+        'hhttps://p1.music.126.net/IvVmS8hei058-_FxOQ4q1w==/109951167953893147.jpg'
+    },
     {
       name: '王都グランセル',
       artist: 'Falcom Sound Team jdk',
