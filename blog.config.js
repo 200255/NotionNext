@@ -312,16 +312,16 @@ const BLOG = {
     {
       name: '星が瞬くこんな夜に',
       artist: '悠久魔女之诗',
-      url: 'https://music.163.com/song/url?id=2017459413.mp3',
+      url: 'https://music.163.com/song/media/outer/url?id=2017459413.mp3',
       cover:
         'https://p1.music.126.net/nY91mI4e9cAJA1y6l7HqYg==/109951168262177179.jpg'
     },
      {
       name: 'ひらひら ひらら',
       artist: '绮亚 / 出航',
-      url: 'https://music.163.com/song/url?id=1463844530.mp3',
+      url: 'https://music.163.com/song/media/outer/url?id=1463844530.mp3',
       cover:
-        'https://p4.music.126.net/GZYfw5Vb7JvLVxJs4ok7_g==/109951165908069316.jpg'
+        'https://p1.music.126.net/zQaV3dJcQxJhhINg2lp_hQ==/109951165149987051.jpg'
     },
     {
       name: '王都グランセル',
