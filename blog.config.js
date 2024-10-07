@@ -328,26 +328,26 @@ const BLOG = {
       artist: '朝ノ瑠璃',
       url: 'https://music.163.com/song/media/outer/url?id=2091408576.mp3',
       cover:
-        'https://p1.music.126.net/zQaV3dJcQxJhhINg2lp_hQ==/109951168987516458.jpg'
+        'https://p1.music.126.net/AeVDX8wNwvAts2c1afZJAQ==/109951168987516458.jpg'
     },
      {
       name: '刻印',
       artist: '朝ノ瑠璃',
       url: 'https://music.163.com/song/media/outer/url?id=2155022204.mp3',
       cover:
-        'https://p1.music.126.net/zQaV3dJcQxJhhINg2lp_hQ==/109951169582686555.jpg'
+        'https://p1.music.126.net/eeKdiv89II1xy06IvWHEaQ==/109951169582686555.jpg'
     },
      {
       name: 'beloved ~桜の彼方へ~ - full ver.',
       artist: 'Spanky / ユージ・ナイトー',
       url: 'https://music.163.com/song/media/outer/url?id=684741.mp3',
       cover:
-        'https://p1.music.126.net/zQaV3dJcQxJhhINg2lp_hQ==/5948357906463864.jpg'
+        'https://p2.music.126.net/ZPhNBlV6xYXnWC7_Et4mBA==/5948357906463864.jpg'
     },
     {
       name: '夢幻の蒼空',
       artist: 'Silver Forest / Saya',
-      url: 'https://music.163.com/song/media/outer/url?id=1333407153',
+      url: 'https://music.163.com/song/media/outer/url?id=1333407153.mp3',
       cover:
         'https://p2.music.126.net/TL70nvBCu2U9-kr1nZR0eg==/109951163725532617.jpg'
     }
