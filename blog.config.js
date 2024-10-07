@@ -323,12 +323,33 @@ const BLOG = {
       cover:
         'https://p1.music.126.net/zQaV3dJcQxJhhINg2lp_hQ==/109951165149987051.jpg'
     },
-    {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+     {
+      name: '拍手喝采歌合',
+      artist: '朝ノ瑠璃',
+      url: 'https://music.163.com/song/media/outer/url?id=2091408576.mp3',
       cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://p1.music.126.net/zQaV3dJcQxJhhINg2lp_hQ==/109951168987516458.jpg'
+    },
+     {
+      name: '刻印',
+      artist: '朝ノ瑠璃',
+      url: 'https://music.163.com/song/media/outer/url?id=2155022204.mp3',
+      cover:
+        'https://p1.music.126.net/zQaV3dJcQxJhhINg2lp_hQ==/109951169582686555.jpg'
+    },
+     {
+      name: 'beloved ~桜の彼方へ~ - full ver.',
+      artist: 'Spanky / ユージ・ナイトー',
+      url: 'https://music.163.com/song/media/outer/url?id=684741.mp3',
+      cover:
+        'https://p1.music.126.net/zQaV3dJcQxJhhINg2lp_hQ==/5948357906463864.jpg'
+    },
+    {
+      name: '夢幻の蒼空',
+      artist: 'Silver Forest / Saya',
+      url: 'https://music.163.com/song/media/outer/url?id=1333407153',
+      cover:
+        'https://p2.music.126.net/TL70nvBCu2U9-kr1nZR0eg==/109951163725532617.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
