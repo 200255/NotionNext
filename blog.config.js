@@ -26,8 +26,8 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '辻本あかね', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '恐惧忘却', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://yokiusagi-akane.vercel.app/', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://yokiusagi.top/', // 网站地址
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion,博客', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
@@ -127,8 +127,7 @@ const BLOG = {
     '/[prefix]/[slug]/[...suffix]': 'LayoutSlug',
     '/auth/result': 'LayoutAuth',
     '/sign-in/[[...index]]': 'LayoutSignIn',
-    '/sign-up/[[...index]]': 'LayoutSignUp',
-    '/dashboard/[[...index]]': 'LayoutDashboard'
+    '/sign-up/[[...index]]': 'LayoutSignUp'
   },
 
   CAN_COPY: process.env.NEXT_PUBLIC_CAN_COPY || true, // 是否允许复制页面内容 默认允许，如果设置为false、则全栈禁止复制内容。
@@ -382,7 +381,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_COMMENT_TWIKOO_COUNT_ENABLE || false, // 博客列表是否显示评论数
   COMMENT_TWIKOO_CDN_URL:
     process.env.NEXT_PUBLIC_COMMENT_TWIKOO_CDN_URL ||
-    'https://cdn.jsdelivr.net/npm/twikoo@1.6.17/dist/twikoo.all.min.js', // twikoo客户端cdn
+    'https://cdn.staticfile.net/twikoo/1.6.17/twikoo.min.js', // twikoo客户端cdn
 
   // utterance
   COMMENT_UTTERRANCES_REPO:
@@ -577,17 +576,7 @@ const BLOG = {
     process.env.npm_lifecycle_event === 'export', // 在打包过程中默认开启缓存，开发或运行时开启此功能意义不大。
   isProd: process.env.VERCEL_ENV === 'production' || process.env.EXPORT, // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
   BUNDLE_ANALYZER: process.env.ANALYZE === 'true' || false, // 是否展示编译依赖内容与大小
-  VERSION: (() => {
-    try {
-      // 优先使用环境变量，否则从package.json中获取版本号
-      return (
-        process.env.NEXT_PUBLIC_VERSION || require('./package.json').version
-      )
-    } catch (error) {
-      console.warn('Failed to load package.json version:', error)
-      return '1.0.0' // 缺省版本号
-    }
-  })()
+  VERSION: process.env.NEXT_PUBLIC_VERSION // 版本号
 }
 
 module.exports = BLOG
